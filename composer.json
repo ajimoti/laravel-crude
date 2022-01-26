@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "ajimoti/laravel-crude",
+    "description": "This is my package laravel-crude",
     "keywords": [
-        ":vendor_name",
+        "ajimoti",
         "laravel",
-        ":package_slug"
+        "laravel-crude"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/ajimoti/laravel-crude",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "ajimoti",
+            "email": "ibukunajmoti@gmail.com",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Ajimoti\\LaravelCrude\\": "src",
+            "Ajimoti\\LaravelCrude\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Ajimoti\\LaravelCrude\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Ajimoti\\LaravelCrude\\LaravelCrudeServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelCrude": "Ajimoti\\LaravelCrude\\Facades\\LaravelCrude"
             }
         }
     },

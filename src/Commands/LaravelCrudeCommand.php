@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Ajimoti\LaravelCrude\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelCrudeCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-crude';
 
     public $description = 'My command';
 
