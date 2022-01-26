@@ -2,9 +2,9 @@
 
 namespace Ajimoti\LaravelCrude\Tests;
 
+use Ajimoti\LaravelCrude\LaravelCrudeServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Ajimoti\LaravelCrude\LaravelCrudeServiceProvider;
 
 class TestCase extends Orchestra
 {

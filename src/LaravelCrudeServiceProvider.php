@@ -2,9 +2,9 @@
 
 namespace Ajimoti\LaravelCrude;
 
+use Ajimoti\LaravelCrude\Commands\LaravelCrudeCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Ajimoti\LaravelCrude\Commands\LaravelCrudeCommand;
 
 class LaravelCrudeServiceProvider extends PackageServiceProvider
 {
